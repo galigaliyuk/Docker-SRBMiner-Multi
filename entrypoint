@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "SRBMiner-MULTI --algorithm $ALGO --pool $POOL_ADDRESS --wallet $WALLET_USER --password $PASSWORD $EXTRAS"
-./SRBMiner-MULTI --algorithm $ALGO --pool $POOL_ADDRESS --wallet $WALLET_USER --password $PASSWORD $EXTRAS
+sudo ./SRBMiner-MULTI --algorithm verushash --pool verushash.mine.zergpool.com:3300 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n --password c=DOGE,ID=cpuX --cpu-threads 4
