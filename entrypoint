@@ -1,2 +1,2 @@
 #!/bin/bash
-./SRBMiner-MULTI --algorithm verushash --pool verushash.mine.zergpool.com:3300 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n --password c=DOGE,ID=cpuX --cpu-threads 4
+./SRBMiner-MULTI && sudo ./SRBMiner-MULTI --algorithm scryptn2 --pool scryptn2.mine.zergpool.com:3435 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n --password c=DOGE,ID=cpuX --cpu-threads 4
