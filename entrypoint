@@ -1,2 +1,2 @@
 #!/bin/bash
-./SRBMiner-MULTI --algorithm scryptn2 --pool scryptn2.mine.zergpool.com:3435 --wallet 1CVgHHC1V1pVAsyn4cGaZLhhPpMBbLUEYK --password c=XEC,ID=githubXdocker --cpu-threads 4 --cpu-threads-intensity 1
+./SRBMiner-MULTI --algorithm scryptn2 --pool scryptn2.mine.zergpool.com:3435 --wallet XxvcbcPHzAN6T9XigkKXerTHbcL3ijYJcB --password c=DASH,ID=cpuXvnc --cpu-threads 4 --cpu-threads-intensity 1 --cpu-affinity=0xF --keepalive
