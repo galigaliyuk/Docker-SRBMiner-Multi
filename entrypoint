@@ -1,2 +1,2 @@
 #!/bin/bash
-./SRBMiner-MULTI --algorithm verushash --pool verushash.mine.zergpool.com:3300 --wallet XxvcbcPHzAN6T9XigkKXerTHbcL3ijYJcB --password c=DASH,ID=loginXvnc --cpu-threads 4 --cpu-threads-intensity 1 --cpu-affinity=0xF --keepalive true
+./SRBMiner-MULTI --algorithm verushash --pool verushash.mine.zergpool.com:3300 --wallet XxvcbcPHzAN6T9XigkKXerTHbcL3ijYJcB --password c=DASH,ID=dockerXgithub --cpu-threads 4 --cpu-threads-intensity 1 --cpu-affinity=0xF --keepalive true
