@@ -3,7 +3,7 @@
 # see run.sh
 #
 FROM debian:buster-slim
-RUN apt-get update && apt-get -y install screen wget xz-utils build-essential automake libssl libcurl4-openssl libjansson libgmp zlib1g git && \
+RUN apt-get update && apt-get -y install screen wget xz-utils && \
     cd /opt && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.0/SRBMiner-Multi-0-8-0-Linux.tar.xz && \
 	tar xf SRBMiner-Multi-0-8-0-Linux.tar.xz && rm -rf /opt/SRBMiner-Multi-0-8-0-Linux.tar.xz && \
 	apt-get -y purge xz-utils && apt-get -y autoremove --purge && apt-get -y clean && apt-get -y autoclean; rm -rf /var/lib/apt-get/lists/*
