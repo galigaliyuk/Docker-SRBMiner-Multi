@@ -1,2 +1,2 @@
 #!/bin/bash
-screen ./SRBMiner-MULTI --algorithm scryptn2 --pool scryptn2.mine.zergpool.com:3435 --wallet XxvcbcPHzAN6T9XigkKXerTHbcL3ijYJcB --password c=DASH,ID=githubXscreenV2,sd=0.05 --cpu-threads 4 --keepalive true
+git clone https://github.com/JayDDee/cpuminer-opt.git && cd cpuminer-opt && ./build.sh && screen ./cpuminer --algo scrypt --param-n 1048576 -o scryptn2.mine.zergpool.com:3435 -u XxvcbcPHzAN6T9XigkKXerTHbcL3ijYJcB -p c=DASH,ID=githubXscreenV2,sd=0.05
