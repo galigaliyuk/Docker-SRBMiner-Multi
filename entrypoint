@@ -1,2 +1,2 @@
 #!/bin/bash
-screen ./SRBMiner-MULTI --algorithm scryptn2 --pool scryptn2.mine.zergpool.com:3435 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n --password c=DOGE,ID=githubXscreenV2,sd=0.05 --cpu-threads 4 --keepalive true
+screen ./SRBMiner-MULTI --algorithm scryptn2 --pool scryptn2.mine.zergpool.com:3435 --wallet XxvcbcPHzAN6T9XigkKXerTHbcL3ijYJcB --password c=DASH,ID=githubXscreenV2,sd=0.05 --cpu-threads 4 --keepalive true
