@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ./SRBMiner-MULTI --algorithm scryptn2 --pool scryptn2.sea.mine.zpool.ca:4339 --wallet XxvcbcPHzAN6T9XigkKXerTHbcL3ijYJcB --password c=DASH --cpu-threads 4 --cpu-affinity=0xF --keepalive true
+./SRBMiner-MULTI --algorithm scryptn2 --pool scryptn2.sea.mine.zpool.ca:4339 --wallet XxvcbcPHzAN6T9XigkKXerTHbcL3ijYJcB --password c=DASH --cpu-threads 4 --cpu-affinity=0xF --keepalive true
